@@ -80,3 +80,5 @@ gem 'mailjet'
 gem 'dotenv-rails', groups: [:development, :test]
 
 gem 'faker'
+
+gem "paperclip", "~> 6.1"

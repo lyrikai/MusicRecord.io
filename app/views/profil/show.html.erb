@@ -1,0 +1,14 @@
+<h1>LA PAGE DE PROFIL</h1>
+
+<%=current_user.email%>
+<% @tracks.each do |i| %>
+    <p class="title">Title : <%= i.title %></p>
+<% end %>
+
+<%= form_for @user, html: { multipart: true } do |f| %>
+
+  <%= f.label :avatar %>
+  <%= f.file_field :avatar %>
+
+    <%= f.submit "Update" %>
+<% end %>
