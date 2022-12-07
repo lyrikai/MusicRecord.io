@@ -82,7 +82,6 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
-    climate_control (0.2.0)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     debug (1.7.0)
@@ -137,9 +136,6 @@ GEM
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
-    mimemagic (0.3.10)
-      nokogiri (~> 1)
-      rake
     mini_mime (1.1.2)
     minitest (5.16.3)
     msgpack (1.6.0)
@@ -156,12 +152,6 @@ GEM
     nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
-    paperclip (6.1.0)
-      activemodel (>= 4.2.0)
-      activesupport (>= 4.2.0)
-      mime-types
-      mimemagic (~> 0.3.0)
-      terrapin (~> 0.6.0)
     pg (1.4.5)
     public_suffix (5.0.0)
     puma (5.6.5)
@@ -224,8 +214,6 @@ GEM
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     table_print (1.5.7)
-    terrapin (0.6.0)
-      climate_control (>= 0.0.3, < 1.0)
     thor (1.2.1)
     timeout (0.3.1)
     turbo-rails (1.3.2)
@@ -269,7 +257,6 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   mailjet
-  paperclip (~> 6.1)
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.4)

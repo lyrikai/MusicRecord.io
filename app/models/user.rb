@@ -7,4 +7,6 @@ class User < ApplicationRecord
   has_many :tracks
   has_many :comments
   has_many :votes
+
+  has_one_attached :avatar
 end
